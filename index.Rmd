@@ -223,7 +223,7 @@ Main
 Shuangbin Xu {#title}
 --------------------------------------------------------------------------------
 
-A PhD student of Bioinformatics, I am broadly interested in metagenomics, bioinformatics, machine learning, data mining and visualization.
+A Ph.D. student of Bioinformatics, I am broadly interested in metagenomics, bioinformatics, machine learning, data mining and visualization.
 
 
 ```{r, results='asis'}
