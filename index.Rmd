@@ -193,7 +193,7 @@ Contact {#contact}
 Selected R packages {#skills}
 --------------------------------------------------------------------------------
 
-Metagenomics
+Microbiome
 
 - MicrobiotaProcess
 
@@ -203,6 +203,7 @@ Phylogeny
 - ggtree
 - treeio
 - tidytree
+- ggmsa
 
 Visualization
 
@@ -220,14 +221,14 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Shuangbin Xu {#title}
+Shuangbin Xu (徐双斌) {#title}
 --------------------------------------------------------------------------------
 
 A Ph.D. student of Bioinformatics, I am broadly interested in metagenomics, bioinformatics, machine learning, data mining and visualization.
 
 
 ```{r, results='asis'}
-intro_text <- glue("I have leaded and contributed to developing some R packages, including ",
+intro_text <- glue("I have leaded or contributed to developing some R packages, including ",
   {Biocpkg("MicrobiotaProcess")}, ", ", 
   {Biocpkg("ggtreeExtra")}, ", ",
   {CRANpkg("ggstar")}, ", ",
@@ -329,6 +330,14 @@ print_section(position_data, 'firstAuthor')
 ```{r, echo = FALSE}
 print_section(position_data, 'coAuthor')
 ```
+
+Awards {data-icon=crown}
+--------------------------------------------------------------------------------
+
+```{r, echo = FALSE}
+print_section(position_data, 'awards')
+```
+
 
 Conference proceedings {data-icon=group}
 --------------------------------------------------------------------------------
